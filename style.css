@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerSectiomn{
+    background-color: beige;
+    height: 120px;
+    position: fixed;
+}
+
+.mainContent{
+    height: 2000px;
+    background-color: gold;
+    border: 2px solid red;
+}
