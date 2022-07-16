@@ -1,16 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
-.headerSectiomn{
-    background-color: beige;
-    height: 120px;
-    position: fixed;
+body {
+  background-color: #181818;
+
+  color: white;
 }
 
-.mainContent{
-    height: 2000px;
-    background-color: gold;
-    border: 2px solid red;
+.headerSectiomn {
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #181818;
+}
+
+.mainContent {
+  height: 2000px;
+  margin-top: 120px;
+  background-color: gold;
+}
+
+.headerSectiomn .topRow {
+  height: 50px;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerSectiomn .topRow .leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.topRow {
+  border-bottom: 1px solid #383838;
+}
+
+.topRow .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.topRow .iconContainer {
+  margin-left: 10px;
+  display: flex;
+}
+.topRow .iconContainer .icon_youtube {
+  width: 30px;
+  height: 27px;
+}
+
+.topRow .iconContainer .iconText {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.topRow .iconContainer .iconCountryCode {
+  font-size: 0.7em;
+}
+
+.topRow .centerSection {
+display: flex;
+align-items: center;
+}
+
+.topRow .centerSection .search{
+  height:  50px;
+
 }
